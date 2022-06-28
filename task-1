@@ -39,13 +39,51 @@
         <input type="radio" name="Gender" id="male" value="Male">
         <label for="male">Male</label>
         <input type="radio" name="Gender" id="female" value="Female">
-        <label for="female">Female</label>
+        <label for="female">Female</label><br/>
+        <input type="submit" value="submitFromInput"><br/>
+        <button>submitFromButton</button><br/>
+        <input type="email" name="email" id="" placeholder="Enter email">
         <textarea name="feedback" id="" cols="130" placeholder="give some feedback" rows="7"></textarea>
     </div>
     <hr/>
     <div class="container">
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</div>
+        <h2>blockquote</h2>
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</blockquote>
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</blockquote>
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</blockquote>
     </div>
+    <hr/>
+    <div class="container">
+        <h2>div</h2>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</div>
+        
+    </div>
+    <hr/>
+    <div class="container">
+        <h2>paragraph</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officiaLorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla facere illo excepturi nostrum doloremque quas beatae dolorum sit veniam dicta in assumenda dolore, et ab reiciendis. Quam omnis mollitia deserunt unde beatae officia!</p>
+    </div>
+    <hr/>
+    <div class="container">
+        <h2>span</h2>
+        <span>span-1</span>
+        <span>span-2</span>
+        <span>span-3</span>
+        <span>span-4</span>
+    </div>
+    <hr/>
+    <d class="container">
+        <q style="display: block; font-size: 21px;">quote tag</q>
+        <strong style="display: block; font-size: 21px;">Strong</strong>
+        <em style="display: block; font-size: 21px;">em</em>
+        <abbr style="display: block; font-size: 21px;" title="Silver Oak University">s.o.u.</abbr>
+        <strike>strike</strike>
+    </d font-size: 21px;iv>
+
     <!-- div 
     p 
 span 
