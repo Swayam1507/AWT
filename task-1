@@ -24,6 +24,19 @@
         /* width: 80%; */
         
     }
+    
+    #form {
+    width: 550px;
+    margin: 7px auto;
+    border: 1px solid gray;
+    border-radius: 13px;
+}
+table,th,td{
+    margin: 7px auto;
+    border: 2px solid black;
+    padding: 3px ;
+}
+
 </style>
 <body>
     <h1>Task-1</h1>
@@ -44,6 +57,29 @@
         <button>submitFromButton</button><br/>
         <input type="email" name="email" id="" placeholder="Enter email">
         <textarea name="feedback" id="" cols="130" placeholder="give some feedback" rows="7"></textarea>
+    </div>
+    <hr/>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Post</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Swayam</td>
+                <td>19</td>
+                <td>Dev</td>
+                <td>99999</td>
+            </tr>
+            <tr>
+                <td>SkillF</td>
+                <td>22</td>
+                <td>Software Engineer</td>
+                <td>91999</td>
+            </tr>
+        </table>
     </div>
     <hr/>
     <div class="container">
@@ -76,14 +112,14 @@
         <span>span-4</span>
     </div>
     <hr/>
-    <d class="container">
+    <div class="container">
         <q style="display: block; font-size: 21px;">quote tag</q>
         <strong style="display: block; font-size: 21px;">Strong</strong>
         <em style="display: block; font-size: 21px;">em</em>
         <abbr style="display: block; font-size: 21px;" title="Silver Oak University">s.o.u.</abbr>
         <strike>strike</strike>
-    </d font-size: 21px;iv>
-
+    </div >
+    <hr/>
     <!-- div 
     p 
 span 
@@ -95,5 +131,16 @@ abbr
 strike
 i
  -->
+ <div id="form">
+    <h2>form</h3>
+     <form >
+         <input type="text" name="name" placeholder="Enter your name" id=""><br/>
+    <input type="email" name="name" placeholder="Enter your email" id=""><br/>
+    <input type="text" name="name" placeholder="Enter your age" id=""><br/>
+    <input type="radio" name="gender">male</input>
+    <input type="radio" name="gender">female</input><br/>
+    <input type="submit" value="submit">
+</form>
+</div>
 </body>
 </html>
